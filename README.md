@@ -2,7 +2,7 @@
   
 ## Ссылка на домашнее задание - https://github.com/netology-code/ter-homeworks/blob/main/03/hw-03.md
   
-## Репозиторий домашнего задания - https://github.com/SLzDevOps/netology-terraform-2
+## Репозиторий домашнего задания - https://github.com/SLzDevOps/netology-terraform-3
 
 
 ### Задача 1
