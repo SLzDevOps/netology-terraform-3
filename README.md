@@ -4,3 +4,6 @@
   
 ### Для общего зачёта создайте в вашем GitHub-репозитории новую ветку terraform-03. Закоммитьте в эту ветку свой финальный код проекта, пришлите ссылку на коммит.
 ## Репозиторий домашнего задания - https://github.com/SLzDevOps/netology-terraform-3
+
+### Скриншоты выполнения, если необходимы.
+## https://github.com/SLzDevOps/netology-terraform-3/tree/terraform-03/screenshots
