@@ -1,3 +1,18 @@
+## Доработка Д3 - 29.03.2026 "Управляющие конструкции в коде Terraform" - `Фомичев Анатолий`
+
+Проведена доработка - убран хард-код, исправлены указанные недочеты. 
+
+  
+ВМ запущены, проверена корректность работы.
+![alt text](https://github.com/SLzDevOps/netology-terraform-3/blob/terraform-03/screenshots/Screenshot_715.png).
+![alt text](https://github.com/SLzDevOps/netology-terraform-3/blob/terraform-03/screenshots/Screenshot_716.png).
+![alt text](https://github.com/SLzDevOps/netology-terraform-3/blob/terraform-03/screenshots/Screenshot_717.png).
+
+  
+----------------------------------------------------------------------------------------------
+
+
+  
 # Домашнее задание по занятию "Управляющие конструкции в коде Terraform" - `Фомичев Анатолий`
   
 ## Ссылка на домашнее задание - https://github.com/netology-code/ter-homeworks/blob/main/03/hw-03.md
@@ -7,3 +22,5 @@
 
 ### Скриншоты выполнения, если необходимы.
 ## https://github.com/SLzDevOps/netology-terraform-3/tree/terraform-03/screenshots
+
+
