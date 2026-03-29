@@ -40,12 +40,12 @@ resource "yandex_compute_instance" "database" {
     memory = each.value.ram
   }
   
-  boot_disk {
-    initialize_params {
-      image_id = "fd80mrhj8fl2oe87o4e1"
-      size     = each.value.disk_volume
-    }
+boot_disk {
+  initialize_params {
+    image_id = data.yandex_compute_image.ubuntu.image_id
+    size     = each.value.disk_volume
   }
+}
   
   network_interface {
     subnet_id = yandex_vpc_subnet.develop.id

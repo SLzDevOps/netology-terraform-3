@@ -4,8 +4,8 @@ resource "yandex_compute_disk" "storage_disk" {
   name     = "storage-disk-${count.index + 1}"
   type     = "network-hdd"
   zone     = var.default_zone
-  size     = 1  # 1 Гб
-  block_size = 4096
+  size     = var.additional_disk_size
+  block_size = var.disk_block_size
   
   labels = {
     environment = "storage"
@@ -26,8 +26,8 @@ resource "yandex_compute_instance" "storage" {
   
   boot_disk {
     initialize_params {
-      image_id = "fd80mrhj8fl2oe87o4e1"  # Ubuntu 20.04 LTS
-      size     = 10
+      image_id = data.yandex_compute_image.ubuntu.image_id
+      size     = var.boot_disk_size
     }
   }
   

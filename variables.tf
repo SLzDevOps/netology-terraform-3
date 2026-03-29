@@ -31,3 +31,42 @@ variable "vpc_name" {
   default     = "develop"
   description = "VPC network&subnet name"
 }
+
+# Web VM resources
+variable "web_cores" {
+  type        = number
+  default     = 2
+  description = "Number of CPU cores for web VMs"
+}
+
+variable "web_memory" {
+  type        = number
+  default     = 2
+  description = "Memory in GB for web VMs"
+}
+
+# Disk sizes
+variable "boot_disk_size" {
+  type        = number
+  default     = 10
+  description = "Boot disk size in GB for all VMs"
+}
+
+variable "additional_disk_size" {
+  type        = number
+  default     = 1
+  description = "Additional storage disk size in GB"
+}
+
+variable "disk_block_size" {
+  type        = number
+  default     = 4096
+  description = "Disk block size in bytes"
+}
+
+# SSH key path
+variable "ssh_public_key_path" {
+  type        = string
+  default     = "~/.ssh/id_ed25519.pub"
+  description = "Path to SSH public key file"
+}
